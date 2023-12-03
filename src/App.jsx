@@ -1,16 +1,8 @@
 import styles from './style';
 
+// prettier-ignore
 import {
-  Navbar,
-  Hero,
-  Stats,
-  Business,
-  Billing,
-  CardDeal,
-  Testimonials,
-  Clients,
-  CTA,
-  Footer,
+  Navbar,  Hero,  Stats,  Business,  Billing,  CardDeal,  Testimonials,  Clients,  CTA,  Footer,
 } from './components';
 
 const App = () => (
@@ -34,7 +26,8 @@ const App = () => (
         <Billing />
         <CardDeal />
         <Testimonials />
-        <Clients /> <CTA />
+        <Clients />
+        <CTA />
         <Footer />
       </div>
     </div>
